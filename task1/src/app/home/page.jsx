@@ -1,13 +1,11 @@
-
-import Footer from '@/component/Footer'
-import Navbar from '@/component/Navbar'
+import styles from './home.module.css'
 import React from 'react'
 const page = () => {
   return (
     <>
-    <Navbar/>
-    <h1>This is home page</h1>
-    <Footer/>
+    <div className={styles.header}>
+    <h1 >This is home page</h1>
+    </div>
     </>
   )
 }
