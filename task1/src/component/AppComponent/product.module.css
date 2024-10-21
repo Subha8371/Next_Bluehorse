@@ -9,7 +9,7 @@
     border-radius: 10px; /* Rounded corners */
     padding: 15px;
     width: 270px; /* Slightly wider than the image */
-    background-color: #fff; /* White background for the card */
+    background-color:  hsl(350, 100%, 90%);; /* White background for the card */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
