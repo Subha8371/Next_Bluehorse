@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./product.module.css"
+import styles from "./shimmer.module.css"
 const Shimmer = () => {
   return (
     <>

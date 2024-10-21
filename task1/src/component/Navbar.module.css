@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo, nav links, and cart */
+    background-color: hsl(350, 100%, 90%);
+    padding: 15px 30px; /* Add padding for top/bottom and left/right */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .logo {
+    flex: 0 0 auto; /* Prevent logo from growing */
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between links */
+  }
+  
+  .navLinks a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark color for links */
+    font-weight: 1000; /* Bold font */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .navLinks a:hover {
+    color: hsl(200, 80%, 40%); /* Change color on hover */
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between cart image and text */
+  }
+  
+  .cart a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark color for cart link */
+    font-weight: 600; /* Bold font */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .cart a:hover {
+    color: hsl(200, 80%, 40%); /* Change color on hover */
+  }
+  

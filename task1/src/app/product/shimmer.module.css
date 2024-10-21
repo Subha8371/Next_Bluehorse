@@ -10,17 +10,17 @@
     padding: 15px;
     width: 270px; /* Slightly wider than the image */
     background-color: #fff; /* White background for the card */
-    box-shadow: 0 4px 8px rgb(87, 68, 68); /* Light shadow for depth */
+    box-shadow: 0 4px 8px rgb(195, 189, 189); /* Light shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .card:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
-    box-shadow: 0 8px 16px rgb(87, 68, 68); /* Stronger shadow on hover */
+    box-shadow: 0 8px 16px rgb(195, 189, 189); /* Stronger shadow on hover */
   }
   
   .image {
-    background-color: rgb(87, 68, 68); /* Light grey background for the image */
+    background-color: rgb(195, 189, 189); /* Light grey background for the image */
     padding: 20px; /* Padding around the image */
     border-radius: 8px; /* Rounded corners for the image container */
     margin-bottom: 15px; /* Space between the image and text */
@@ -36,14 +36,14 @@
   
   .card h4 {
     font-size: 1.2rem;
-    color: rgb(87, 68, 68); /* Darker text color */
+    color: rgb(195, 189, 189); /* Darker text color */
     margin: 10px 0; /* Margin for spacing */
     text-align: center;
   }
   
   .card h4.price {
     font-size: 1.4rem;
-    color:rgb(87, 68, 68); /* Green color for the price */
+    color:rgb(195, 189, 189); /* Green color for the price */
     font-weight: bold;
     
   }
